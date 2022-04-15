@@ -1,0 +1,83 @@
+body/*设置页面背景*/
+{
+	margin:0px;
+	padding:0px;
+	background:url(../img/homepage/bg.png);
+	background-repeat: no-repeat;
+	background-size:cover
+}
+.nav{/*设置导航栏*/
+	position:fixed;
+	width:100%;
+}
+.container
+{ 
+	width:1366px; 
+	height:570px;
+}
+.left{
+	width: 400px;
+	height:570px;
+	float: left;
+}
+.right{
+	width:966px;
+	height:570px;
+	float: right;
+}
+#headimg{
+	padding-top:110px;
+	padding-left:200px;
+}
+#msg{
+	padding-left:250px;
+}
+tr{/*设置《个人档》字体*/
+	font-size:18px;
+	color:white;
+}
+
+.btn {
+	width: 100px; 
+	height: 42px; 
+	float: left; 
+	background-size: contain; 
+	position: relative;
+	margin-top:60px;
+	margin-left:150px;
+}
+p{
+	color:white;
+}
+.content{
+    margin-top: 110px;
+    display: none;
+}
+
+.content.show{
+	margin-top: 110px;
+    display:block;
+    height: 505px;
+}
+.myImage{
+	margin-left:150px;
+}
+.myMusic{
+	margin-top:80px;
+}
+#yinyue{
+	margin-left:360px;
+}
+#musicName{
+	text-align:center;
+}
+#anniu{
+	margin-left:400px;
+}
+#perfer{
+	margin-top:20px;
+	margin-right:20px;
+}
+.log{
+	margin-left:100px;
+}

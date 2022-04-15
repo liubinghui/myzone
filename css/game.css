@@ -1,0 +1,62 @@
+body{
+	margin:0px;
+	padding:0px;
+	background:url(../img/game/bg.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.nav{
+	position:fixed;
+	width:100%;
+}
+.main{
+	width:1366px;
+	height:565px;
+	padding-top:50px;
+}
+.btn{
+	width:57px;
+	height:78px;
+	float:left;
+}
+.imgs{
+	width:860px;
+	height:437px;
+	float:left;
+	margin-top:64px;
+	margin-left:53px;
+	margin-right:53px;
+}
+#left{
+	background-image:url(../img/game/left.png);
+	background-repeat: no-repeat;
+	margin-top:254px;
+	margin-left:140px;
+}
+#right{
+	background-image:url(../img/game/right.png);
+	background-repeat: no-repeat;
+	margin-top:254px;
+	margin-right:140px;
+}
+.show{
+	background-color:#CF121B;
+}
+.lis{
+	margin-top:520px;
+	margin-left:600px;
+}
+
+.lis li{
+	list-style:none;
+	float:left;
+	width:8px;
+	height:8px;
+	margin:6px;
+	border-radius:50%;
+	background-color:#fff;
+}
+.lis .selected{
+	background-color:#38B1E5;
+}
+

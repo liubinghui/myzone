@@ -1,0 +1,29 @@
+body{
+	margin:0px;
+	padding:0px;
+	background:url(../img/personal/bg.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.nav{
+	position:fixed;
+	width:100%;
+}
+img{
+	margin-top:200px;
+	margin-left:400px;
+}
+p{
+	line-height:40px;
+	font-size: 20px;
+	color:white;
+}
+#name{
+	margin-left:470px;
+    font-weight:bold;
+}
+
+#des{
+	margin-top:-300px;
+	margin-left:740px;
+}
