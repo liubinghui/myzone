@@ -6,15 +6,6 @@ div.navbar{
 	height:50px;
 	background:url(../img/head/bg.png);
 }
-div.navbar ul{
-	position:fixed;
-	top:0;
-	width:100%;
-	height:100%;
-}
-div.navbar ul li{
-	display:inline;
-}
 img{
 	margin:-10px 10px -10px 40px;
 	padding:0px;
@@ -24,13 +15,13 @@ a{
 	padding:0px;
 }
 
+div.navbar ul li{
+	display:inline;
+	float:right;
+}
 a:link{
 	text-decoration:none;
 }
-
-
-
-
 
 
 
