@@ -47,6 +47,16 @@ function btnActive(){
 		}
 	}
 }
+//控制播放视频
+var video1 = document.getElementById("video1");
+var videobtn1 = document.getElementById("videobtn1") 
+var videobtn2 = document.getElementById("videobtn2") 
+videobtn1.onclick = function (){
+	video1.play();
+}
+videobtn2.onclick = function (){
+	video1.pause();
+}
 
 //控制《我的音乐》播放功能
 var index = 0;
