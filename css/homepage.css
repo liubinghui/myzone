@@ -57,7 +57,7 @@ p{
 .content.show{
 	margin-top: 110px;
     display:block;
-    height: 505px;
+    height: 400px;
 }
 .myImage{
 	margin-left:150px;
@@ -78,6 +78,10 @@ p{
 	margin-top:20px;
 	margin-right:20px;
 }
-.log{
-	margin-left:100px;
+.myVideo{
+	margin-left:150px;
+}
+video{
+	height:300px;
+	width:500px;
 }

@@ -6,6 +6,7 @@ div.navbar{
 	height:50px;
 	background:url(../img/head/bg.png);
 }
+
 img{
 	margin:-10px 10px -10px 40px;
 	padding:0px;
@@ -17,7 +18,7 @@ a{
 
 div.navbar ul li{
 	display:inline;
-	float:right;
+	float:left;
 }
 a:link{
 	text-decoration:none;

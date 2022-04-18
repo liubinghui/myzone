@@ -17,6 +17,7 @@ img{
 }
 
 p{
+	margin:auto;
 	padding:10px 50px;
 }
 p.h{
@@ -29,14 +30,19 @@ p.h{
 	background-repeat: no-repeat;
 	font-family:"Lucida Console","Courier New",monospace;
 }
+table{
+	margin:auto;
+}
 td{
-	width:160px;
+	width:300px;
 	font-size: 20px;
 	color: white;
 	font-family:"Lucida Console","Courier New",monospace;
 }
-
+td.image{
+	width:60px;
+	padding-right:100px;
+}
 .friendlist{
-	margin-left:460px;
 	padding-top:60px;
 }
